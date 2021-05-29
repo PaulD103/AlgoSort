@@ -1,0 +1,27 @@
+{
+  "name": "algosort",
+  "version": "1.0.2",
+  "description": "This node package is for all javascript developers who are interested in sorting algorithms. This package gives you the possibility to choose between many different sorting algorithms. This package will output a two dimensional array of all numbers in different sorting states.",
+  "main": "index.js",
+  "scripts": {
+    "sort": "node sort.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulD103/AlgoSort.git"
+  },
+  "keywords": [
+    "algorithms",
+    "sorting",
+    "bubblesort",
+    "selectionsort",
+    "sort",
+    "algorithm"
+  ],
+  "author": "Paul Dunz <contact@javascriptcoding.org> (https://javascriptcoding.org)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaulD103/AlgoSort/issues"
+  },
+  "homepage": "https://github.com/PaulD103/AlgoSort#readme"
+}
