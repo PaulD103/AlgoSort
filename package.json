@@ -1,10 +1,10 @@
 {
   "name": "algosort",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "This node package is for all javascript developers who are interested in sorting algorithms. This package gives you the possibility to choose between many different sorting algorithms. This package will output a two dimensional array of all numbers in different sorting states.",
   "main": "index.js",
   "scripts": {
-    "sort": "node sort.js"
+    "test": "mocha index.test.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/PaulD103/AlgoSort/issues"
   },
-  "homepage": "https://github.com/PaulD103/AlgoSort#readme"
+  "homepage": "https://github.com/PaulD103/AlgoSort#readme",
+  "devDependencies": {
+    "mocha": "^8.4.0",
+    "request": "^2.88.2"
+  }
 }

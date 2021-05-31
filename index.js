@@ -1,5 +1,5 @@
-const bubblesortAlgorithm = require('./algorithms/bubblesort.js');
-const selectionsortAlgorithm = require('./algorithms/selectionsort.js');
+const bubblesortAlgorithm = require('./algorithms/functional/bubblesort.js');
+const selectionsortAlgorithm = require('./algorithms/functional/selectionsort.js');
 
 function algosort(options) {
   if (options.numbers != null)

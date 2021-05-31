@@ -7,7 +7,7 @@ This node package is for all javascript developers who are interested in sorting
 
 ## Code
 ```javascript
-var algosort = require("algosort");
+const algosort = require("algosort");
 
 var sortedNumbers = algosort.algosort({
     algorithm: 'bubblesort',
