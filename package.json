@@ -4,7 +4,7 @@
   "description": "This node package is for all javascript developers who are interested in sorting algorithms. This package gives you the possibility to choose between many different sorting algorithms. This package will output a two dimensional array of all numbers in different sorting states.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha index.test.js"
+    "test": "mocha src/index.test.js"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,10 @@
   },
   "homepage": "https://github.com/PaulD103/AlgoSort#readme",
   "devDependencies": {
-    "mocha": "^8.4.0",
-    "request": "^2.88.2"
+    "mocha": "^8.4.0"
+  },
+  "dependencies": {
+    "algosort": "^1.0.4",
+    "parcel": "^1.12.4"
   }
 }
