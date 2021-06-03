@@ -1,7 +1,7 @@
 {
   "name": "algosort",
-  "version": "1.0.4",
-  "description": "This node package is for all javascript developers who are interested in sorting algorithms. This package gives you the possibility to choose between many different sorting algorithms. This package will output a two dimensional array of all numbers in different sorting states.",
+  "version": "2.0.1",
+  "description": "This node package is for all javascript developers who are interested in sorting algorithms. This package gives you the possibility to choose between many different sorting algorithms. This package will output a two dimensional array of all numbers in different sorting states or you create automatically a graphical animation of the sorting algorithm in a canvas element.",
   "main": "index.js",
   "scripts": {
     "test": "mocha src/index.test.js"
@@ -16,7 +16,13 @@
     "bubblesort",
     "selectionsort",
     "sort",
-    "algorithm"
+    "algorithm",
+    "sorting-algorithms",
+    "sorting-algorithms-implemented",
+    "visualization",
+    "sorting-visualization",
+    "bubblesort-visualization",
+    "selectionsort-visualization"
   ],
   "author": "Paul Dunz <contact@javascriptcoding.org> (https://javascriptcoding.org)",
   "license": "ISC",
@@ -28,7 +34,6 @@
     "mocha": "^8.4.0"
   },
   "dependencies": {
-    "algosort": "^1.0.4",
-    "parcel": "^1.12.4"
+    "parcel": "^2.0.0-beta.2"
   }
 }

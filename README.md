@@ -32,10 +32,6 @@ AlgoSort supports 2 algorithm (at the moment), 3 different options for the outpu
 <br>
 
 ## Web
-### Installation
-To run this on a local web page, you need to install a node package: <br>
-`npm i parcel -g` <br>
-
 ### Usage
 To use this sorting animation on your website, you need to add a link to the _graphical.js_ file in the head of your _index.html_ file. <br>
 
