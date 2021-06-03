@@ -38,6 +38,7 @@ To run this on a local web page, you need to install a node package: <br>
 
 ### Usage
 To use this sorting animation on your website, you need to add a link to the _graphical.js_ file in the head of your _index.html_ file. <br>
+
 You do this with this line of code: <br>
 ```html
 <script src="./node_modules/algosort/src/graphical.js"></script>
@@ -49,7 +50,7 @@ The whole code would look like this:
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Test graphical bublesort</title>
+    <title>AlgoSort</title>
     <script src="./node_modules/algosort/src/graphical.js"></script>
   </head>
   <body>
