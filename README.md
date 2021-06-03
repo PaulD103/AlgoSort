@@ -2,7 +2,7 @@
 
 ## Command line and Web
 
-This node package is for all javascript developers who are interested in sorting algorithms. This package gives you the possibility to choose between many different sorting algorithms. This package will output a two dimensional array of all numbers in different sorting states. <br><br>
+This node package is for all javascript developers who are interested in sorting algorithms. This package gives you the possibility to choose between many different sorting algorithms. This package will output a two dimensional array of all numbers in different sorting states. <br>
 
 ### Installation
 `npm i algosort` <br><br>
@@ -76,3 +76,6 @@ The options you have: <br>
 
 ### Run your _index.html_ file
 `parcel index.html`
+
+### Open your _index.html_ file
+`http://localhost:1234`
