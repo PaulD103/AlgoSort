@@ -1,6 +1,6 @@
 {
   "name": "algosort",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "This node package is for all javascript developers who are interested in sorting algorithms. This package gives you the possibility to choose between many different sorting algorithms. This package will output a two dimensional array of all numbers in different sorting states or you create automatically a graphical animation of the sorting algorithm in a canvas element.",
   "main": "src/index.js",
   "scripts": {
