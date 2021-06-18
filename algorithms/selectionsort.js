@@ -5,11 +5,11 @@ exports.selectionsort = function (numbers, i, output, testIndicator) {
   if (output === "afterEachNumber") {
     sortedNumbers = sortedNumbers.concat(numbers);
     if (testIndicator == numbers.length-1)
-      console.log('In This case the output is the same as with the option "afterEachRun", because of other algorithm structure!');
+      console.log('The output "afterEachNumber" is equal to the option "afterEachRun", because of other algorithm structure!');
   } else if (output === "afterEachRun") {
     sortedNumbers = sortedNumbers.concat(numbers);
     if (testIndicator == numbers.length-1)
-      console.log('In This case the output is the same as with the option "afterEachNumber", because of other algorithm structure!');
+      console.log('The output "afterEachRun" is equal to the option "afterEachNumber", because of other algorithm structure!');
   } else if (output === "afterAllRuns") {
     if (testIndicator == numbers.length-1)
       sortedNumbers = sortedNumbers.concat(numbers);
